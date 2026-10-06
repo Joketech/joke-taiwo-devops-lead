@@ -153,7 +153,7 @@ function App() {
             Joke Taiwo Ogundairo helps teams design, automate, secure, monitor and optimize the systems that keep modern companies moving — from cloud platforms and CI/CD pipelines to MLOps, DevSecOps and AI-driven automation.
           </p>
           <div className="hero-actions">
-            <a className="btn primary" href="https://calendar.app.google/6q4SPsAuH1GZSotWA" target="_blank" rel="noreferrer">
+            <a className="btn primary" href="https://calendar.app.google/W8PhymNbwEq43QubA" target="_blank" rel="noreferrer">
               Book a Call <ArrowRight size={18} />
             </a>
             <a className="btn secondary" href="#experience">View leadership record</a>
