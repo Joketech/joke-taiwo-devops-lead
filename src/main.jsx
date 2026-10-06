@@ -159,12 +159,12 @@ function App() {
             <a className="btn secondary" href="#experience">View leadership record</a>
           </div>
         </div>
-        <aside className="hero-card" aria-label="Executive profile summary">
+        <aside className="hero-card portrait-card" aria-label="Executive profile summary">
           <div className="status-pill"><span></span> Available for senior DevOps, platform and cloud leadership conversations</div>
-          <h2>Lead DevOps Engineer</h2>
-          <p>Cloud infrastructure, Kubernetes, CI/CD, GitOps, observability, DevSecOps, MLOps and business-aligned automation.</p>
-          <div className="stack-grid">
-            <span>AWS</span><span>EKS</span><span>Kubernetes</span><span>Terraform</span><span>ArgoCD</span><span>MLOps</span>
+          <img className="hero-portrait" src="/images/joke-executive-hero.webp" alt="Joke Taiwo Ogundairo in an executive grey suit" />
+          <div className="portrait-caption">
+            <h2>Lead DevOps Engineer</h2>
+            <p>Cloud infrastructure, Kubernetes, CI/CD, GitOps, observability, DevSecOps, MLOps and business-aligned automation.</p>
           </div>
         </aside>
       </section>
@@ -183,6 +183,20 @@ function App() {
               <p>{body}</p>
             </article>
           ))}
+        </div>
+      </section>
+
+      <section className="executive-visual section-shell" aria-label="Joke Taiwo executive portrait">
+        <div className="executive-photo-wrap">
+          <img src="/images/joke-leadership-chair.webp" alt="Joke Taiwo Ogundairo seated in a formal leadership portrait" />
+        </div>
+        <div className="executive-note">
+          <span className="kicker">Leadership presence</span>
+          <h2>Senior engineering leadership with calm operational control.</h2>
+          <p>For companies evaluating a DevOps leader, the signal is not only technical depth. It is the ability to bring order to infrastructure, align teams around delivery, and make growth feel controlled instead of chaotic.</p>
+          <div className="stack-grid visual-stack">
+            <span>AWS</span><span>EKS</span><span>Kubernetes</span><span>Terraform</span><span>ArgoCD</span><span>MLOps</span>
+          </div>
         </div>
       </section>
 
@@ -259,6 +273,20 @@ function App() {
             <li><CheckCircle2 size={18} /> Resource coordination and strategic execution</li>
             <li><CheckCircle2 size={18} /> Business objectives translated into delivery plans</li>
           </ul>
+        </div>
+        <div className="portrait-gallery" aria-label="Professional portraits of Joke Taiwo">
+          <figure>
+            <img src="/images/joke-profile-light.webp" alt="Joke Taiwo Ogundairo in a white shirt portrait" />
+            <figcaption>Clarity for teams and stakeholders</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/joke-warm-portrait.webp" alt="Joke Taiwo Ogundairo warm studio portrait" />
+            <figcaption>Human-centred leadership</figcaption>
+          </figure>
+          <figure>
+            <img src="/images/joke-burgundy-portrait.webp" alt="Joke Taiwo Ogundairo burgundy professional portrait" />
+            <figcaption>Executive presence with practical delivery</figcaption>
+          </figure>
         </div>
       </section>
 
