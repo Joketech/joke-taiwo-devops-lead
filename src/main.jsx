@@ -153,8 +153,8 @@ function App() {
             Joke Taiwo Ogundairo helps teams design, automate, secure, monitor and optimize the systems that keep modern companies moving — from cloud platforms and CI/CD pipelines to MLOps, DevSecOps and AI-driven automation.
           </p>
           <div className="hero-actions">
-            <a className="btn primary" href="https://wa.me/2348026193708?text=Hello%20Joke%2C%20I%20would%20like%20to%20discuss%20a%20DevOps%20leadership%20opportunity." target="_blank" rel="noreferrer">
-              Start a conversation on WhatsApp <ArrowRight size={18} />
+            <a className="btn primary" href="https://calendar.app.google/6q4SPsAuH1GZSotWA" target="_blank" rel="noreferrer">
+              Book a Call <ArrowRight size={18} />
             </a>
             <a className="btn secondary" href="#experience">View leadership record</a>
           </div>
@@ -162,6 +162,10 @@ function App() {
         <aside className="hero-card portrait-card" aria-label="Executive profile summary">
           <div className="status-pill"><span></span> Available for senior DevOps, platform and cloud leadership conversations</div>
           <img className="hero-portrait" src="/images/joke-executive-hero.webp" alt="Joke Taiwo Ogundairo in an executive grey suit" />
+          <div className="portrait-caption">
+            <h2>Lead DevOps Engineer</h2>
+            <p>Cloud infrastructure, platform engineering, automation and business-aligned delivery.</p>
+          </div>
         </aside>
       </section>
 
@@ -292,6 +296,7 @@ function App() {
         </div>
         <div className="contact-panel">
           <a href="mailto:Joketaiwo2008@gmail.com"><Mail size={18} /> Joketaiwo2008@gmail.com</a>
+          <a href="https://wa.me/2348026193708?text=Hello%20Joke%2C%20I%20would%20like%20to%20discuss%20a%20DevOps%20leadership%20opportunity." target="_blank" rel="noreferrer"><span className="contact-glyph">WA</span> WhatsApp</a>
           <a href="https://github.com/Joketech" target="_blank" rel="noreferrer"><span className="contact-glyph">GH</span> github.com/Joketech</a>
           <a href="https://www.linkedin.com/in/joke-taiwo-ogundairo-1424ab149/" target="_blank" rel="noreferrer"><span className="contact-glyph">in</span> LinkedIn profile</a>
           <span><MapPin size={18} /> Lagos, Nigeria · Remote-ready</span>
