@@ -142,7 +142,7 @@ h1 {
   border-radius: 50%;
   background: radial-gradient(circle, rgba(245,158,11,0.34), transparent 68%);
 }
-.portrait-card { min-height: 600px; display: flex; flex-direction: column; justify-content: space-between; }
+.portrait-card { min-height: 600px; display: flex; flex-direction: column; justify-content: space-between; align-items: center; }
 .hero-portrait {
   position: absolute;
   inset: 0;
@@ -161,10 +161,11 @@ h1 {
 }
 .portrait-card .status-pill, .portrait-caption { position: relative; z-index: 2; }
 .portrait-caption {
-  margin-top: auto;
+  margin: auto auto 0;
   padding: 0 4px 2px;
   max-width: 92%;
   color: #050806;
+  text-align: center;
   text-shadow: 0 1px 0 rgba(255,255,255,0.45), 0 10px 24px rgba(255,255,255,0.26);
 }
 .portrait-caption h2 { margin: 0 0 8px; font-size: clamp(26px, 3vw, 40px); letter-spacing: -0.055em; line-height: 1; }
