@@ -271,7 +271,6 @@ function App() {
         <div className="contact-panel">
           <a href="mailto:Joketaiwo2008@gmail.com"><Mail size={18} /> Joketaiwo2008@gmail.com</a>
           <a href="https://github.com/Joketech" target="_blank" rel="noreferrer"><span className="contact-glyph">GH</span> github.com/Joketech</a>
-          <a href="#" aria-disabled="true"><span className="contact-glyph">in</span> LinkedIn profile link to add</a>
           <span><MapPin size={18} /> Lagos, Nigeria · Remote-ready</span>
         </div>
       </section>
