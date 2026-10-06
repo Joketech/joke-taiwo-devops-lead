@@ -148,13 +148,13 @@ function App() {
       <section id="top" className="hero section-shell">
         <div className="hero-copy">
           <div className="eyebrow"><Sparkles size={16} /> Lead DevOps Engineer · Cloud Infrastructure · Platform Engineering</div>
-          <h1>Infrastructure leadership for companies that need growth to run smoothly.</h1>
+          <h1>Infrastructure leadership for smooth, secure and scalable company growth.</h1>
           <p className="hero-lede">
             Joke Taiwo Ogundairo helps teams design, automate, secure, monitor and optimize the systems that keep modern companies moving — from cloud platforms and CI/CD pipelines to MLOps, DevSecOps and AI-driven automation.
           </p>
           <div className="hero-actions">
-            <a className="btn primary" href="mailto:Joketaiwo2008@gmail.com?subject=DevOps%20Leadership%20Conversation%20with%20Joke%20Taiwo">
-              Start a conversation <ArrowRight size={18} />
+            <a className="btn primary" href="https://wa.me/2348026193708?text=Hello%20Joke%2C%20I%20would%20like%20to%20discuss%20a%20DevOps%20leadership%20opportunity." target="_blank" rel="noreferrer">
+              Start a conversation on WhatsApp <ArrowRight size={18} />
             </a>
             <a className="btn secondary" href="#experience">View leadership record</a>
           </div>
@@ -162,10 +162,6 @@ function App() {
         <aside className="hero-card portrait-card" aria-label="Executive profile summary">
           <div className="status-pill"><span></span> Available for senior DevOps, platform and cloud leadership conversations</div>
           <img className="hero-portrait" src="/images/joke-executive-hero.webp" alt="Joke Taiwo Ogundairo in an executive grey suit" />
-          <div className="portrait-caption">
-            <h2>Lead DevOps Engineer</h2>
-            <p>Cloud infrastructure, Kubernetes, CI/CD, GitOps, observability, DevSecOps, MLOps and business-aligned automation.</p>
-          </div>
         </aside>
       </section>
 
@@ -173,7 +169,6 @@ function App() {
         <div className="section-heading">
           <span className="kicker">Why companies pay attention</span>
           <h2>Reliable systems create room for growth.</h2>
-          <p>Companies checking this profile should see more than a resume. They should see the operational advantage of having a leader who connects infrastructure decisions to business outcomes.</p>
         </div>
         <div className="outcome-grid">
           {companyOutcomes.map(({ icon: Icon, title, body }) => (
@@ -294,7 +289,6 @@ function App() {
         <div>
           <span className="kicker">For hiring teams, founders and engineering leaders</span>
           <h2>When infrastructure must support growth, reliability and automation, the conversation should start here.</h2>
-          <p>Use this profile as the introduction point for senior DevOps, cloud infrastructure, platform engineering, AI infrastructure and automation leadership opportunities.</p>
         </div>
         <div className="contact-panel">
           <a href="mailto:Joketaiwo2008@gmail.com"><Mail size={18} /> Joketaiwo2008@gmail.com</a>
