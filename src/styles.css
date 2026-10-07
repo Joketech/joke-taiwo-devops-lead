@@ -207,14 +207,14 @@ h1 {
 }
 .section-heading p, .contact p, .leadership-card p { color: var(--muted); font-size: 17px; line-height: 1.7; }
 .compact { max-width: 670px; }
-.impact, .experience, .capabilities, .leadership, .contact { padding: 42px 0; }
+.impact, .experience, .capabilities, .leadership, .contact { padding: 64px 0; }
 .executive-visual {
   display: grid;
   grid-template-columns: 0.82fr 1.18fr;
   gap: 28px;
   align-items: stretch;
   padding: 28px;
-  margin-bottom: 14px;
+  margin-bottom: 28px;
   border: 1px solid var(--line);
   border-radius: 34px;
   background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(52,211,126,0.045));
@@ -250,7 +250,7 @@ h1 {
 .metric { padding: 28px; background: rgba(5,14,10,0.94); }
 .metric strong { display: block; color: var(--gold); font-size: clamp(32px, 4vw, 48px); letter-spacing: -0.07em; }
 .metric span { color: var(--muted); line-height: 1.55; }
-.split-section { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 32px; padding: 42px 0 28px; align-items: start; }
+.split-section { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 32px; padding: 64px 0 48px; align-items: start; }
 .strengths-list { display: grid; gap: 14px; }
 .strength { display: grid; grid-template-columns: 54px 1fr; gap: 18px; padding: 22px; }
 .icon-box { width: 54px; height: 54px; display: grid; place-items: center; border-radius: 18px; background: rgba(52,211,126,0.1); border: 1px solid rgba(52,211,126,0.2); }
@@ -328,6 +328,17 @@ footer p { margin: 0; }
   .hero, .split-section, .contact, .executive-visual { grid-template-columns: 1fr; }
   .hero { min-height: auto; padding-top: 36px; }
   .portrait-card { min-height: 560px; }
+  .portrait-caption {
+    padding: 16px 18px;
+    max-width: 88%;
+    border: 1px solid rgba(255,255,255,0.38);
+    border-radius: 22px;
+    background: rgba(246,247,242,0.72);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 18px 50px rgba(0,0,0,0.18);
+  }
+  .portrait-caption h2 { font-size: 30px; }
+  .portrait-caption p { font-size: 14px; line-height: 1.45; }
   .executive-photo-wrap { min-height: 500px; }
   .outcome-grid, .metrics-band { grid-template-columns: repeat(2, 1fr); }
   .portrait-gallery { grid-template-columns: 1fr; }
